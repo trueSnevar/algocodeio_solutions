@@ -79,13 +79,13 @@ def longest_gene_sequence(gene: str, k: int) -> int:
     return result
 
 if __name__ == "__main__":
-    ex1 = "YYxxXXXyyy"
+    ex1 = "YYxxXXXyyy" # 8
     k1 = 3
 
-    ex2 = "yyy"
+    ex2 = "yyy" # 0
     k2 = 0
 
-    ex3 = "aXYYYXYXYbccc"
+    ex3 = "aXYYYXYXYbccc" # 3
     k3 = 1
 
     ans1 = longest_gene_sequence(ex1, k1)

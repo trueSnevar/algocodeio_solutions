@@ -59,9 +59,9 @@ def longest_stock_growth(stock: List[int]) -> int:
     return best
 
 if __name__ == "__main__":
-    ex1 = [1,1,0,1,1,1,1,0,1]
-    ex2 = [0]
-    ex3 = [1,0,0,1]
+    ex1 = [1,1,0,1,1,1,1,0,1] # 7
+    ex2 = [0] # 1
+    ex3 = [1,0,0,1] # 2
 
     ans1 = longest_stock_growth(ex1)
     ans2 = longest_stock_growth(ex2)

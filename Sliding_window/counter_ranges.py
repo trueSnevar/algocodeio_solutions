@@ -57,9 +57,9 @@ if __name__ == "__main__":
     ex2 = [-3,-2]
     ex3 = [0,2,4,6]
 
-    ans1 = counter_ranges(ex1)
-    ans2 = counter_ranges(ex2)
-    ans3 = counter_ranges(ex3)
+    ans1 = counter_ranges(ex1) # ["1->5","8","10","15->16","20"]
+    ans2 = counter_ranges(ex2) # ["-3->-2"]
+    ans3 = counter_ranges(ex3) # ["0","2","4","6"]
     print(ans1)
     print(ans2)
     print(ans3)

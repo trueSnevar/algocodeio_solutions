@@ -57,13 +57,13 @@ def longest_stock_growth(stock: List[int], k: int) -> int:
     return best
 
 if __name__ == "__main__":
-    ex1 = [1,0,1,1,0,1,1,0]
+    ex1 = [1,0,1,1,0,1,1,0] # 7
     k1 = 2
 
-    ex2 = [0]
+    ex2 = [0] # 0
     k2 = 0
 
-    ex3 = [1,0,0,1]
+    ex3 = [1,0,0,1] # 2
     k3 = 1
 
     ans1 = longest_stock_growth(ex1, k1)

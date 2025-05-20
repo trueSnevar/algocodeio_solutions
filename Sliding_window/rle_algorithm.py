@@ -1,5 +1,6 @@
 """
 Кодирование повторов
+
 средне
 решено
 
@@ -65,8 +66,8 @@ def compress(chars: List[str]) -> List[str]:
     return result
 
 if __name__ == "__main__":
-    ex1 = ["x","x","y","z","z","z"]
-    ex2 = ["y","y","x","x","x","x","x","x","x","x","x","x","x","x","y","y"]
+    ex1 = ["x","x","y","z","z","z"] # ["x","2","y","z","3"]
+    ex2 = ["y","y","x","x","x","x","x","x","x","x","x","x","x","x","y","y"] # ["y","2","x","1","2","y","2"]
     ex3 = ["a","b","c"]
 
     ans1 = compress(ex1)

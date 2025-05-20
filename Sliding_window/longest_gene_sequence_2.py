@@ -50,11 +50,11 @@ def longest_gene_sequence(gene: str) -> int:
     return best
 
 if __name__ == "__main__":
-    ex1 = "yxyabcxyx"
+    ex1 = "yxyabcxyx" # 5
 
-    ex2 = "Aac"
+    ex2 = "Aac" # 3
 
-    ex3 = "ffff"
+    ex3 = "ffff" # 1
 
     ans1 = longest_gene_sequence(ex1)
     ans2 = longest_gene_sequence(ex2)

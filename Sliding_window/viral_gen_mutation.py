@@ -64,13 +64,13 @@ def check_for_virus(gene: str, virus: str) -> bool:
     return False
 
 if __name__ == "__main__":
-    gene1 = "cdeebba"
+    gene1 = "cdeebba" # True
     virus1 = "abb"
 
-    gene2 = "xyxxux"
+    gene2 = "xyxxux" # False
     virus2 = "xxx"
 
-    gene3 = "monstergen"
+    gene3 = "monstergen" # True
     virus3 = "ster"
 
 
