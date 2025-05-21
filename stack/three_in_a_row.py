@@ -48,9 +48,9 @@ def play(nums: List[int]) -> int:
     return result
 
 if __name__ == "__main__":
-    ex1 = [1,1,2,2,2,1]
-    ex2 = [4,1,2,3,3,3,2,2,1,1]
-    ex3 = [1,2,3]
+    ex1 = [1,1,2,2,2,1] # 6
+    ex2 = [4,1,2,3,3,3,2,2,1,1] # 9
+    ex3 = [1,2,3] # 0
 
     ans1 = play(ex1)
     ans2 = play(ex2)

@@ -48,9 +48,9 @@ def predict_warming(temperatures: List[int]) -> List[int]:
     return result
 
 if __name__ == "__main__":
-    ex1 = [5,6,9,7,5,-1,8,11,2]
-    ex2 = [5,4,3]
-    ex3 = [2,3,4,5]
+    ex1 = [5,6,9,7,5,-1,8,11,2] # [1,1,5,3,2,1,1,0,0]
+    ex2 = [5,4,3] # [0,0,0]
+    ex3 = [2,3,4,5] # [1,1,1,0]
 
     ans1 = predict_warming(ex1)
     ans2 = predict_warming(ex2)
